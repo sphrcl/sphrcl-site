@@ -1,0 +1,572 @@
+# Copyright (C) 2014 Automattic
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: _s 1.0-wpcom\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2014-07-28 01:32:28+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2014-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: 404.php:12
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:14
+msgid "The page you are looking for could not be found. Try a different address, or search using the form below."
+msgstr ""
+
+#: 404.php:22
+msgid "Most Used Categories"
+msgstr ""
+
+#: archive.php:33
+#, php-format
+msgid "Author: %s"
+msgstr ""
+
+#: archive.php:36
+#, php-format
+msgid "Day: %s"
+msgstr ""
+
+#: archive.php:39
+#, php-format
+msgid "Month: %s"
+msgstr ""
+
+#: archive.php:42
+#, php-format
+msgid "Year: %s"
+msgstr ""
+
+#: archive.php:45
+msgid "Asides"
+msgstr ""
+
+#: archive.php:48
+msgid "Galleries"
+msgstr ""
+
+#: archive.php:51
+msgid "Images"
+msgstr ""
+
+#: archive.php:54
+msgid "Videos"
+msgstr ""
+
+#: archive.php:57
+msgid "Quotes"
+msgstr ""
+
+#: archive.php:60
+msgid "Links"
+msgstr ""
+
+#: archive.php:63
+msgid "Statuses"
+msgstr ""
+
+#: archive.php:66
+msgid "Audios"
+msgstr ""
+
+#: archive.php:69
+msgid "Chats"
+msgstr ""
+
+#: archive.php:72
+msgid "Archives"
+msgstr ""
+
+#: comments.php:35
+#: comments.php:53
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:36
+#: comments.php:54
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:37
+#: comments.php:55
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:65
+msgid "Comments are closed."
+msgstr ""
+
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr ""
+
+#: content-none.php:19
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: content-none.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: content-none.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: content-page.php:39
+#: content-project-single.php:48
+#: content-single.php:48
+msgid "Pages:"
+msgstr ""
+
+#: content-page.php:45
+msgid "Edit"
+msgstr ""
+
+#: content-posts-home.php:34
+#: content-projects-home.php:36
+msgid "View All"
+msgstr ""
+
+#: content-single.php:23
+msgid ", "
+msgstr ""
+
+#: content.php:34
+msgid "No Comments"
+msgstr ""
+
+#: content.php:34
+msgid "1 Comment"
+msgstr ""
+
+#: content.php:34
+msgid "% Comments"
+msgstr ""
+
+#: functions.php:55
+msgid "Main Menu"
+msgstr ""
+
+#: functions.php:375
+msgid "Sorry, but it seems like your browser doesnt support HTML5 video."
+msgstr ""
+
+#: page-portfolio.php:48
+#: page-portfolio.php:86
+msgid "All"
+msgstr ""
+
+#: search.php:24
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: inc/class-portfolio-cpt.php:55
+msgid "Projects"
+msgstr ""
+
+#: inc/class-portfolio-cpt.php:56
+msgid "Project"
+msgstr ""
+
+#: inc/class-portfolio-cpt.php:57
+#: inc/class-testimonial-cpt.php:44
+msgid "Add New"
+msgstr ""
+
+#: inc/class-portfolio-cpt.php:58
+msgid "Add New Project"
+msgstr ""
+
+#: inc/class-portfolio-cpt.php:60
+msgid "Edit Project"
+msgstr ""
+
+#: inc/class-portfolio-cpt.php:61
+msgid "New Project"
+msgstr ""
+
+#: inc/class-portfolio-cpt.php:62
+#: inc/class-portfolio-cpt.php:63
+msgid "View Project"
+msgstr ""
+
+#: inc/class-portfolio-cpt.php:64
+msgid "Search Projects"
+msgstr ""
+
+#: inc/class-portfolio-cpt.php:65
+msgid "No projects found"
+msgstr ""
+
+#: inc/class-portfolio-cpt.php:66
+msgid "No projects found in Trash"
+msgstr ""
+
+#: inc/class-portfolio-cpt.php:67
+msgid "Parent Project"
+msgstr ""
+
+#: inc/class-portfolio-cpt.php:101
+#: inc/class-portfolio-cpt.php:216
+msgid "Skills"
+msgstr ""
+
+#: inc/class-portfolio-cpt.php:102
+msgid "Skill"
+msgstr ""
+
+#: inc/class-portfolio-cpt.php:103
+msgid "Search Skills"
+msgstr ""
+
+#: inc/class-portfolio-cpt.php:104
+msgid "All Skills"
+msgstr ""
+
+#: inc/class-portfolio-cpt.php:105
+msgid "Parent Skill"
+msgstr ""
+
+#: inc/class-portfolio-cpt.php:106
+msgid "Parent Skill:"
+msgstr ""
+
+#: inc/class-portfolio-cpt.php:107
+msgid "Edit Skill"
+msgstr ""
+
+#: inc/class-portfolio-cpt.php:108
+msgid "Update Skill"
+msgstr ""
+
+#: inc/class-portfolio-cpt.php:109
+msgid "Add New Skill"
+msgstr ""
+
+#: inc/class-portfolio-cpt.php:110
+msgid "New Skill Name"
+msgstr ""
+
+#: inc/class-portfolio-cpt.php:156
+msgid "Associated Skills"
+msgstr ""
+
+#: inc/class-testimonial-cpt.php:40
+#: inc/class-testimonial-cpt.php:41
+msgid "Testimonials"
+msgstr ""
+
+#: inc/class-testimonial-cpt.php:42
+msgid "Testimonial"
+msgstr ""
+
+#: inc/class-testimonial-cpt.php:43
+msgid "All Testimonials"
+msgstr ""
+
+#: inc/class-testimonial-cpt.php:45
+msgid "Add New Testimonial"
+msgstr ""
+
+#: inc/class-testimonial-cpt.php:46
+msgid "Edit Testimonial"
+msgstr ""
+
+#: inc/class-testimonial-cpt.php:47
+msgid "New Testimonial"
+msgstr ""
+
+#: inc/class-testimonial-cpt.php:48
+msgid "View Testimonial"
+msgstr ""
+
+#: inc/class-testimonial-cpt.php:49
+msgid "Search Testimonials"
+msgstr ""
+
+#: inc/class-testimonial-cpt.php:50
+msgid "No testimonials found"
+msgstr ""
+
+#: inc/class-testimonial-cpt.php:51
+msgid "No testimonials found in Trash"
+msgstr ""
+
+#: inc/customizer.php:72
+msgid "Logo"
+msgstr ""
+
+#: inc/customizer.php:86
+msgid "Favicon"
+msgstr ""
+
+#: inc/customizer.php:95
+msgid "Homepage"
+msgstr ""
+
+#: inc/customizer.php:96
+msgid "Use the following settings to customize the appearance of your Swell homepage."
+msgstr ""
+
+#: inc/customizer.php:103
+msgid "Banner Section"
+msgstr ""
+
+#: inc/customizer.php:118
+msgid "Banner Background Image"
+msgstr ""
+
+#: inc/customizer.php:133
+msgid "Banner Background Video"
+msgstr ""
+
+#: inc/customizer.php:141
+msgid "Swell is a beautiful WordPress theme that uses motion to help tell your story."
+msgstr ""
+
+#: inc/customizer.php:148
+msgid "Banner Content"
+msgstr ""
+
+#: inc/customizer.php:163
+msgid "Pattern Overlay for Video"
+msgstr ""
+
+#: inc/customizer.php:173
+msgid "Portfolio Section"
+msgstr ""
+
+#: inc/customizer.php:181
+msgid "Recent Projects"
+msgstr ""
+
+#: inc/customizer.php:188
+msgid "Recent Projects Title"
+msgstr ""
+
+#: inc/customizer.php:203
+msgid "Recent Projects Summary"
+msgstr ""
+
+#: inc/customizer.php:218
+msgid "Number of Recent Projects to Show"
+msgstr ""
+
+#: inc/customizer.php:234
+msgid "Secondary Video Section"
+msgstr ""
+
+#: inc/customizer.php:249
+msgid "Secondary Video"
+msgstr ""
+
+#: inc/customizer.php:258
+msgid "Blog Section"
+msgstr ""
+
+#: inc/customizer.php:266
+msgid "From the Blog"
+msgstr ""
+
+#: inc/customizer.php:273
+msgid "Recent Posts Title"
+msgstr ""
+
+#: inc/customizer.php:288
+msgid "Recent Posts Summary"
+msgstr ""
+
+#: inc/customizer.php:303
+msgid "Number of Recent Posts to Show"
+msgstr ""
+
+#: inc/customizer.php:312
+msgid "Testimonials Section"
+msgstr ""
+
+#: inc/customizer.php:327
+msgid "Number of Testimonials to Show"
+msgstr ""
+
+#: inc/customizer.php:349
+msgid "Testimonials Background"
+msgstr ""
+
+#: inc/customizer.php:360
+msgid "Custom CSS"
+msgstr ""
+
+#: inc/customizer.php:361
+msgid "Add your own custom CSS."
+msgstr ""
+
+#: inc/customizer.php:374
+msgid "CSS"
+msgstr ""
+
+#: inc/customizer.php:386
+msgid "Accent Color"
+msgstr ""
+
+#: inc/customizer.php:396
+msgid "Header Background Color"
+msgstr ""
+
+#: inc/customizer.php:405
+msgid "Menu Color"
+msgstr ""
+
+#: inc/customizer.php:415
+msgid "Menu Hover Color"
+msgstr ""
+
+#: inc/customizer.php:425
+msgid "Link Color"
+msgstr ""
+
+#: inc/customizer.php:435
+msgid "Link Hover Color"
+msgstr ""
+
+#: inc/customizer.php:445
+msgid "Footer"
+msgstr ""
+
+#: inc/customizer.php:458
+msgid "Primary Footer Text"
+msgstr ""
+
+#: inc/customizer.php:473
+msgid "Secondary Footer Text"
+msgstr ""
+
+#: inc/extras.php:99
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: inc/template-tags.php:63
+msgid "Post navigation"
+msgstr ""
+
+#: inc/template-tags.php:101
+#, php-format
+msgid "<span class=\"posted-on\">%1$s</span>"
+msgstr ""
+
+#: inc/template-tags.php:118
+msgid "By "
+msgstr ""
+
+#: inc/template-tags.php:217
+msgid "Read More"
+msgstr ""
+
+#: inc/template-tags.php:296
+#, php-format
+msgid "View all posts in %s"
+msgstr ""
+
+#: inc/template-tags.php:303
+#, php-format
+msgid "Posted by %2$s on %1$s %3$s<br /> "
+msgstr ""
+
+#: inc/template-tags.php:343
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/template-tags.php:350
+msgid "Reply"
+msgstr ""
+
+#: inc/template-tags.php:350
+msgid "Log in to reply"
+msgstr ""
+
+#: inc/widgets.php:16
+msgid "This is the default widget area for the sidebar. This will be displayed if the other sidebars have not been populated with widgets."
+msgstr ""
+
+#: inc/widgets.php:26
+msgid "Widget area for the sidebar on pages."
+msgstr ""
+
+#: inc/widgets.php:36
+msgid "Widget area for the sidebar on posts."
+msgstr ""
+
+#: inc/widgets.php:46
+msgid "This is the default widget area for the footer. This will be displayed if the other footers have not been populated with widgets."
+msgstr ""
+
+#: inc/widgets.php:56
+msgid "Widget area for the footer on the home page."
+msgstr ""
+
+#: inc/widgets.php:66
+msgid "Widget area for the footer on pages."
+msgstr ""
+
+#: inc/widgets.php:76
+msgid "Widget area for the footer on posts."
+msgstr ""
+
+#: inc/widgets.php:86
+msgid "Widget area for the footer on portfolio pages."
+msgstr ""
+
+#: inc/widgets.php:107
+msgid "Display recent posts from any category."
+msgstr ""
+
+#: inc/widgets.php:108
+msgid "Recent Posts"
+msgstr ""
+
+#: inc/widgets.php:178
+#: inc/widgets.php:276
+#: inc/widgets.php:354
+msgid "Title:"
+msgstr ""
+
+#: inc/widgets.php:180
+msgid "Category"
+msgstr ""
+
+#: inc/widgets.php:188
+msgid "Number of posts:"
+msgstr ""
+
+#: inc/widgets.php:190
+msgid "10 max"
+msgstr ""
+
+#: inc/widgets.php:207
+msgid "Flickr"
+msgstr ""
+
+#: inc/widgets.php:282
+msgid "Flickr ID:"
+msgstr ""
+
+#: inc/widgets.php:288
+msgid "Number of photos:"
+msgstr ""
+
+#: inc/widgets.php:290
+msgid "(15 max)"
+msgstr ""
+
+#: inc/widgets.php:308
+msgid "Display a random testimonial."
+msgstr ""
