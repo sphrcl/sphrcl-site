@@ -35,6 +35,7 @@
 	</header><!-- .entry-header -->
 
 	<div class="body-wrap">
+
 	<div class="entry-content">
 		<div class="halfsies fl"> <!-- web design -->
 		<ul class="titles">	
@@ -50,10 +51,10 @@
 				) );
 			?>
 			<br />
-			<span class="edit-link"><a href="<?php echo get_post_meta($post->ID, 'spherical_link', true); ?>" class="post-edit-link">Read more</a></span>
+			<!-- <span class="edit-link"><a href="<?php echo get_post_meta($post->ID, 'spherical_link', true); ?>" class="post-edit-link">Read more</a></span> -->
 			<br />	
 				<div style="clear: both;"></div>		
-			<p style="text-align: justify;"><?php echo get_post_meta($post->ID, 'spherical_para2', true); ?></p>
+			<?php echo get_post_meta($post->ID, 'spherical_para2', true); ?>
 		</div> <!-- end webdesign -->
 
 		<div class="middle-liner"></div>
@@ -65,11 +66,10 @@
 		</ul>	
 				<div style="clear: both;"></div>
 
-			<h2><?php echo get_post_meta($post->ID, 'spherical_subtitle', true); ?></h2>	
 			<p style="text-align: justify;"><?php echo get_post_meta($post->ID, 'spherical_para1', true); ?></p>
 
 			<br />
-			<span class="edit-link"><a href="<?php echo get_post_meta($post->ID, 'spherical_link2', true); ?>" class="post-edit-link">Read more</a></span>
+			<!-- <span class="edit-link"><a href="<?php echo get_post_meta($post->ID, 'spherical_link2', true); ?>" class="post-edit-link">Read more</a></span> -->
 			<br />
 				<div style="clear: both;"></div>		
 
@@ -79,7 +79,6 @@
 
 	</div><!-- .entry-content -->
 	<footer class="entry-footer">
-		<?php edit_post_link( __( 'Edit', 'swell' ), '<span class="edit-link">', '</span>' ); ?>
 	</footer><!-- .entry-footer -->
 	</div>
 	

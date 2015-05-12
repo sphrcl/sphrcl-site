@@ -8,7 +8,7 @@ get_header(); ?>
 
  <?php while (have_posts()) : the_post(); //home content section ?>
 	<?php if($post->post_content):?>
-	<section id="main-content" class="content-area">
+	<section style="background-color: #fafafa;" id="main-content" class="content-area">
 
 
 				<?php // $home_content_bkg = get_theme_mod('swell_home_content_bkg'); ?>

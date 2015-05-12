@@ -127,7 +127,7 @@
 							<ul class="sf-menu clear" id="menu-main-menu">
 								<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-51" id="menu-item-51"><a href="http://sphericalcommunications.com/new/?page_id=48">Who we are</a></li>
 								<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-66" id="menu-item-66"><a href="http://sphericalcommunications.com/new/?page_id=209">What We Do</a></li>
-								<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-39 current_page_item menu-item-73" id="menu-item-73"><a href="http://sphericalcommunications.com/new/?page_id=39">Projects</a></li>
+								<li class="menu-item menu-item-type-post_type menu-item-object-page page_item page-item-39 menu-item-73" id="menu-item-73"><a href="http://sphericalcommunications.com/new/?page_id=39">Projects</a></li>
 								<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-202 nav-toggler toggle-slide-top" id="menu-item-202"><a class="nav-toggler toggle-slide-top" href="#">Contact</a></li>
 							</ul>
 						</nav>

@@ -3049,9 +3049,9 @@ p {
 
 #projects header p {
     font-size: 18px;
-    letter-spacing: 0.7px;
-    line-height: 62px;
-	font-family: 'AvenirLTStd-Book';    
+  letter-spacing: 0.7px;
+  line-height: 58px;
+  font-family: 'AvenirLTStd-Book';  
 }
 
  #secondary-video-home {
@@ -3344,7 +3344,7 @@ padding-right: 10px;
 	position: absolute;
 	width: 1px;
 	border: 1px solid #E5e5e5;
-	height: 115%;
+	height: 125%;
 	left: 50%;
 	top: -70px;
 	bottom: 27px;
@@ -3379,7 +3379,27 @@ padding-right: 10px;
     z-index: 99999999 !important;
 }
 
+/* ======================= edits ========================== */
 
+.content-area ul.bullets {
+  padding-top: 10px;
+  left: 35px;
+  position: relative;
+  font-family: "AvenirLTStd-Book";
+  letter-spacing: 0.3px;
+  line-height: 46px;
+}
 
+.content-area ul.bullets {
+	
+}
 
+#home-content {
+  padding: 130px 0 65px;
+  margin-top: -33px;
+}
+
+#projects-home {
+	padding-bottom: 145px;
+}
 
