@@ -45,7 +45,7 @@
 	<link href='http://fonts.googleapis.com/css?family=Muli:400,300italic,300,400italic' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type='text/css' href="http://www.sphericalcommunications.com/new/wp-content/themes/swell/css/nav.css">
 	<link rel="stylesheet" type='text/css' href="http://sphericalcommunications.com/new/wp-content/themes/swell/css/base.css">
-
+	<link rel="stylesheet" type='text/css' href="http://sphericalcommunications.com/new/wp-content/themes/swell/css/animation.css">
 
 
 	<?php wp_head(); ?>
@@ -97,11 +97,11 @@
 				<div class="inside clearfix">
 					<?php $logo_head_tag = ( is_front_page() ) ? "h1" : "h3";	?>
 					<?php $ttrust_logo = get_theme_mod( 'swell_logo' ); ?>
-					<div id="logo">
+					<div id="logo fade-in">
 
 					<?php if( $ttrust_logo ) { ?>
 
-						<<?php echo $logo_head_tag; ?> class="logo"><a href="<?php bloginfo('url'); ?>"><img src="<?php echo $ttrust_logo; ?>" alt="<?php bloginfo('name'); ?>" /></a></<?php echo $logo_head_tag; ?>>
+						<<?php echo $logo_head_tag; ?> class="logo"><a href="<?php bloginfo('url'); ?>"><img id="fade-in" src="<?php echo $ttrust_logo; ?>" alt="<?php bloginfo('name'); ?>" /></a></<?php echo $logo_head_tag; ?>>
 
 					<?php } else { ?>
 
