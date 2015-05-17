@@ -1,0 +1,257 @@
+body .menu .push-menu-top, body .menu .push-menu-top-subnav {
+display: none;
+}
+
+nav.menu.push-menu-top, nav.menu.push-menu-top-subnav {
+z-index: 999999999 !important;
+}
+
+#main {
+	display: none;
+}
+
+nav.menu.push-menu-top-subnav, nav.menu.push-menu-top {
+	border-bottom: 1px solid #e8e4db;
+}
+
+button.close-menu {
+	position: absolute;
+	float: right;
+	top: 10px;
+	right: 4px;
+}
+
+.contact {
+	position: relative;
+	float: right;
+	right: 15%;
+	top: 25px;
+}
+
+.contact p {
+margin-bottom: 0px;
+padding-bottom: 0px;
+bottom: 0px;
+padding: 0px;
+margin: 6px 0px;
+}
+
+nav.menu.push-menu-top, nav.menu.push-menu-top-subnav {
+	background-image: url('http://thomasmeyersstudio.com/new/wp-content/themes/thomasmeyersstudio/images/bg-contact.jpg');
+}
+
+/*
+body.smt-open nav.slide-menu-top, body.pmt-open nav.push-menu-top {
+    position: relative;
+    top: -485px !important;
+}
+
+*/
+
+body.smt-open nav.slide-menu-top, body.pmt-open nav.push-menu-top, body.pmt-open nav.push-menu-top-subnav {
+    position: relative;
+    top: 0;
+}
+
+/* ------------------------------------------------------------ *\
+|* ------------------------------------------------------------ *|
+|* Template
+|* ------------------------------------------------------------ *|
+\* ------------------------------------------------------------ */
+body {
+    overflow-x: hidden
+}
+#wrapper {
+    position: relative;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+
+/* ------------------------------------------------------------ *\
+|* ------------------------------------------------------------ *|
+|* Menus
+|* ------------------------------------------------------------ *|
+\* ------------------------------------------------------------ */
+/* general style for all menus */
+nav.menu {
+    position: fixed;
+    z-index: 20;
+    overflow: hidden;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+nav.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav.menu a {
+    font-weight: 300;
+}
+
+button.close-menu:focus {
+    outline: none
+}
+/* slide menu top and bottom */
+nav.slide-menu-top,
+nav.slide-menu-bottom,
+nav.push-menu-top,
+nav.push-menu-bottom,
+nav.push-menu-top-subnav {
+    left: 0;
+    width: 100%;
+    height: 355px;
+}
+nav.slide-menu-top ul,
+nav.slide-menu-bottom ul,
+nav.push-menu-top ul,
+nav.push-menu-bottom ul,
+nav.push-menu-top-subnav ul {
+    text-align: center;
+    padding: 25px 0 0 0;
+}
+nav.slide-menu-top li,
+nav.slide-menu-bottom li,
+nav.push-menu-top li,
+nav.push-menu-bottom li,
+nav.push-menu-top-subnav li {
+    display: inline-block;
+    margin: 0;
+    vertical-align: middle;
+}
+nav.slide-menu-top a,
+nav.slide-menu-bottom a,
+nav.push-menu-top a,
+nav.push-menu-bottom a,
+nav.push-menu-top-subnav a {
+    display: block;
+    line-height: 50px;
+    padding: 0 10px;
+    font-size: 18px;
+}
+nav.slide-menu-top button.close-menu,
+nav.slide-menu-bottom button.close-menu,
+nav.push-menu-top button.close-menu,
+nav.push-menu-bottom button.close-menu,
+nav.push-menu-top-subnav button.close-menu {
+    display: block;
+    line-height: 50px;
+    margin: 0;
+    padding: 0 10px;
+}
+nav.slide-menu-top,
+nav.push-menu-top,
+nav.push-menu-top-subnav  {
+    top: -355px;
+}
+
+
+nav.slide-menu-bottom,
+nav.push-menu-bottom,
+nav.push-menu-top-subnav {
+    bottom: -100px
+}
+body.smt-open nav.slide-menu-top,
+body.pmt-open nav.push-menu-top,
+body.pmt-open nav.push-menu-top-subnav  {
+    top: -486px;
+}
+
+body.smt-open nav.slide-menu-top,
+body.pmt-open nav.push-menu-top,
+body.pmt-open nav.push-menu-top-subnav {
+    top: -486px;
+}
+
+body.pmt-open nav.push-menu-top-subnav {
+    top: -558px;
+}
+
+body.smb-open nav.slide-menu-bottom,
+body.pmb-open nav.push-menu-bottom {
+    bottom: 0
+}
+body.pmt-open #wrapper {
+    top: 355px;
+}
+body.pmb-open #wrapper {
+    top: -100px
+}
+/* ------------------------------------------------------------ *\
+|* ------------------------------------------------------------ *|
+|* Media Queries
+|* ------------------------------------------------------------ *|
+\* ------------------------------------------------------------ */
+@media all and (max-width: 860px) { 
+	.buttons br {
+	  	display: none
+	}
+	.buttons button {
+	  	padding: 10px 20px
+	}
+}
+@media all and (max-width: 660px) { 
+	/* slide menu top and bottom */
+	nav.slide-menu-top ul,
+	nav.slide-menu-bottom ul,
+	nav.push-menu-top ul,
+	nav.push-menu-bottom ul {
+	  	padding: 35px 0 0 0
+	}
+	nav.slide-menu-top a,
+	nav.slide-menu-bottom a,
+	nav.push-menu-top a,
+	nav.push-menu-bottom a {
+	  	line-height: 30px;
+	  	padding: 0 2px;
+	  	font-size: 12px;
+	}
+	nav.slide-menu-top button.close-menu,
+	nav.slide-menu-bottom button.close-menu,
+	nav.push-menu-top button.close-menu,
+	nav.push-menu-bottom button.close-menu {
+	  	line-height: 30px;
+	  	padding: 0 2px;
+	}
+}
+@media all and (max-width: 330px) { 
+	nav.slide-menu-left,
+	nav.slide-menu-right,
+	nav.push-menu-left,
+	nav.push-menu-right {
+	  	top: 0;
+	  	width: 100%;
+	}
+	nav.slide-menu-left,
+	nav.push-menu-left {
+	  	left: -100%
+	}
+	nav.slide-menu-right,
+	nav.push-menu-right {
+	  	right: -100%
+	}
+	body.sml-open nav.slide-menu-left,
+	body.pml-open nav.push-menu-left {
+	  	left: 0
+	}
+	body.smr-open nav.slide-menu-right,
+	body.pmr-open nav.push-menu-right {
+	  	right: 0
+	}
+	body.pml-open #wrapper {
+	  	left: 100%
+	}
+	body.pmr-open #wrapper {
+	  	left: -100%
+	}
+}
